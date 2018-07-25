@@ -1,3 +1,3 @@
 class Category < ApplicationRecord
-	has_many :articles
+	has_many :articles #category à plusieurs articles
 end
