@@ -1,24 +1,13 @@
-# README
+<h1> Blog des familles </h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ceci est notre premier projet en Rails !
 
-Things you may want to cover:
+Dans le Gemfile, vous retrouverez toutes les Gem nécéssaires à lancer le programme, pour les installer, faites un $Bundle install dans votre terminal.
 
-* Ruby version
+Ce programme créé des bases de données pour un blog virtuel.
 
-* System dependencies
+Enjoy ! 
 
-* Configuration
+Made by : Romain, Sandrine & Rémi.
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

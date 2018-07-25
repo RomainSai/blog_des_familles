@@ -16,17 +16,17 @@ ActiveRecord::Schema.define(version: 2018_07_25_133308) do
     t.string "title"
     t.text "content"
     t.integer "user_id"
+    t.integer "category_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["category_id"], name: "index_articles_on_category_id"
     t.index ["user_id"], name: "index_articles_on_user_id"
   end
 
   create_table "categories", force: :cascade do |t|
     t.string "name"
-    t.integer "article_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["article_id"], name: "index_categories_on_article_id"
   end
 
   create_table "comments", force: :cascade do |t|
